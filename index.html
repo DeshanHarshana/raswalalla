@@ -19,43 +19,9 @@
   
 }
 
-.deg-0 {
-   transform:translate(25vw)
-}
-.deg-5 {
-   transform:rotate(5deg) translate(25vw) rotate(-5deg);
-}
-
-.deg-10 {
-   transform:rotate(10deg) translate(25vw) rotate(-10deg);
-}
-
-.deg-15 {
-   transform:rotate(15deg) translate(25vw) rotate(-15deg);
-}
-
-.deg-20 {
-   transform:rotate(20deg) translate(25vw) rotate(-20deg);
-}
-
-.deg-25 {
-   transform:rotate(25deg) translate(25vw) rotate(-25deg);
-}
-
-.deg-30 {
-   transform:rotate(30deg) translate(25vw) rotate(-30deg);
-}
-
-.deg-35 {
-   transform:rotate(35deg) translate(25vw) rotate(-35deg);
-}
-
-.deg-40 {
-   transform:rotate(40deg) translate(25vw) rotate(-40deg);
-}
 </style> 
  </head> 
- <body> 
+ <body bgcolor="black"> 
      <script>
         var id_t1=0
         var ang_t1=0
@@ -89,9 +55,9 @@
 
         var id_t3=161
         var ang_t3=3
-        for(var i=0; i<80; i++){
+        for(var i=0; i<72; i++){
         var div = document.createElement("div");
-        div.setAttribute("id", id_t2.toString());
+        div.setAttribute("id", id_t3.toString());
         div.setAttribute(
             'style',
             'transform:rotate('+ang_t3+'deg) translate(21vw) rotate(-'+ang_t3+'deg);',
@@ -101,7 +67,131 @@
         id_t3++;
         ang_t3=ang_t3+5;
         }
+
+        var id_t4=233
+        var ang_t4=4
+        for(var i=0; i<70; i++){
+        var div = document.createElement("div");
+        div.setAttribute("id", id_t4.toString());
+        div.setAttribute(
+            'style',
+            'transform:rotate('+ang_t4+'deg) translate(19vw) rotate(-'+ang_t4+'deg);',
+            );
+        div.classList="circle";
+        document.body.appendChild(div)
+        id_t4++;
+        ang_t4=ang_t4+6;
+        }
+
+        var id_t5=305
+        var ang_t5=4
+        for(var i=0; i<51; i++){
+        var div = document.createElement("div");
+        div.setAttribute("id", id_t5.toString());
+        div.setAttribute(
+            'style',
+            'transform:rotate('+ang_t5+'deg) translate(17vw) rotate(-'+ang_t5+'deg);',
+            );
+        div.classList="circle";
+        document.body.appendChild(div)
+        id_t5++;
+        ang_t5=ang_t5+7.05;
+        }
+
+        var id_t6=356
+        var ang_t6=4
+        for(var i=0; i<48; i++){
+        var div = document.createElement("div");
+        div.setAttribute("id", id_t6.toString());
+        div.setAttribute(
+            'style',
+            'transform:rotate('+ang_t6+'deg) translate(15vw) rotate(-'+ang_t6+'deg);',
+            );
+        div.classList="circle";
+        document.body.appendChild(div)
+        id_t6++;
+        ang_t6=ang_t6+7.5;
+        }
+
+        var id_t7=404
+        var ang_t7=5
+        for(var i=0; i<42; i++){
+        var div = document.createElement("div");
+        div.setAttribute("id", id_t7.toString());
+        div.setAttribute(
+            'style',
+            'transform:rotate('+ang_t7+'deg) translate(13vw) rotate(-'+ang_t7+'deg);',
+            );
+        div.classList="circle";
+        document.body.appendChild(div)
+        id_t7++;
+        ang_t7=ang_t7+8.5;
+        }
+
+        var id_t8=446
+        var ang_t8=6
+        for(var i=0; i<36; i++){
+        var div = document.createElement("div");
+        div.setAttribute("id", id_t8.toString());
+        div.setAttribute(
+            'style',
+            'transform:rotate('+ang_t8+'deg) translate(11vw) rotate(-'+ang_t8+'deg);',
+            );
+        div.classList="circle";
+        document.body.appendChild(div)
+        id_t8++;
+        ang_t8=ang_t8+10;
+        }
+
+        var id_t9=482
+        var ang_t9=7
+        for(var i=0; i<30; i++){
+        var div = document.createElement("div");
+        div.setAttribute("id", id_t9.toString());
+        div.setAttribute(
+            'style',
+            'transform:rotate('+ang_t9+'deg) translate(9vw) rotate(-'+ang_t9+'deg);',
+            );
+        div.classList="circle";
+        document.body.appendChild(div)
+        id_t9++;
+        ang_t9=ang_t9+12;
+        }
+
+        var id_t10=512
+        var ang_t10=7
+        for(var i=0; i<22; i++){
+        var div = document.createElement("div");
+        div.setAttribute("id", id_t10.toString());
+        div.setAttribute(
+            'style',
+            'transform:rotate('+ang_t10+'deg) translate(7vw) rotate(-'+ang_t10+'deg);',
+            );
+        div.classList="circle";
+        document.body.appendChild(div)
+        id_t10++;
+        ang_t10=ang_t10+16;
+        }
+
+        var id_t11=534
+        var ang_t11=8
+        for(var i=0; i<16; i++){
+        var div = document.createElement("div");
+        div.setAttribute("id", id_t11.toString());
+        div.setAttribute(
+            'style',
+            'transform:rotate('+ang_t11+'deg) translate(5vw) rotate(-'+ang_t11+'deg);',
+            );
+        div.classList="circle";
+        document.body.appendChild(div)
+        id_t11++;
+        ang_t11=ang_t11+24;
+        }
+
+        function start(){
+            
+        }
      </script>
-   
+   <button onclick="start()">Click</button>
  </body>
 </html>
